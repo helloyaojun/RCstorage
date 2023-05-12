@@ -632,7 +632,7 @@
 		F9F31E402AF8607392491DDE7C006070 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		F9FC7E1E3279DAE839639775DDC788F3 /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
 		FA7264FCF7B1B78DF1A7424CFAF7020D /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
-		FB9C088D2A04E1A100356BAC /* RCstorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCstorageManager.swift; sourceTree = "<group>"; };
+		FB9C08962A0CEED300356BAC /* CloudeStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CloudeStorageManager.swift; path = RCstorage/Classes/CloudeStorageManager.swift; sourceTree = "<group>"; };
 		FC9D21642FAF76C80B418A034859A651 /* HMFoundation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = HMFoundation.xcframework; sourceTree = "<group>"; };
 		FEFE5DCA45ADF41D434F3D0A9C6CEF7E /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1056,9 +1056,9 @@
 		9047402279D20E526C01446D64007776 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				FB9C08962A0CEED300356BAC /* CloudeStorageManager.swift */,
 				C87A70B59DCC6C35180FEF943861E784 /* LICENSE */,
 				D74040D996CEB1D50B767D856D2DA5CF /* RCstorage.podspec */,
-				FB9C088D2A04E1A100356BAC /* RCstorageManager.swift */,
 				C565F4FDA09944D948361C8F0A17DF6D /* README.md */,
 			);
 			name = Pod;
